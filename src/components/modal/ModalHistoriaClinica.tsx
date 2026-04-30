@@ -161,7 +161,7 @@ export default function ModalHistoriaClinica({ onClose }: Props) {
 
                 <button onClick={() =>  {setVideoId("VideoPortfolio.mp4"); setOpenVideoModal(true)}} className="flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg text-sm">
                   <IoPlayCircleOutline className="text-2xl"/>
-                  <span className="text-sm">Ver reel del sistema</span>
+                  <span className="text-sm">Ver reel</span>
                 </button>
               </div>
 

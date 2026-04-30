@@ -30,7 +30,7 @@ export default function Hero() {
         <div className="flex flex-col mx-auto max-w-4xl gap-6">
           <h4 className="text-white lg:text-4xl italic border-b-2 w-36">Portafolio</h4>
           <h2 className="text-2xl font-semibold tracking-tight text-white sm:text-4xl md:text-5xl lg:text-[100px] pt-64 italic">Ángela María</h2>
-          <p className="text-white lg:text-2xl italic">Associate Product Owner | Analista Funcional SR | Enfoque en producto | Transfromo requerimientos en soluciones claras y alineadas al negocio.</p>
+          <p className="text-white lg:text-2xl italic">Associate Product Owner | Analista Funcional SR | Enfoque en producto | Transformo requerimientos en soluciones claras y alineadas al negocio.</p>
         </div>
         
       </div>
