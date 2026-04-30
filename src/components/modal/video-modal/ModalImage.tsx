@@ -14,7 +14,7 @@ export default function ModalImage({ onClose }: Props) {
         className="w-full max-w-4xl bg-black rounded-lg overflow-hidden shadow-2xl"
       >
         <img
-          src="/public/imCard.jpeg"
+          src="imCard.jpeg"
           alt="imagen modal"
           className="w-full h-full object-contain"
         />

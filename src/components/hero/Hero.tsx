@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="relative mx-auto max-w-5xl isolate overflow-hidden min-h-[70vh] sm:min-h-[100vh] flex items-center py-24 sm:py-32 m-16">
       <img
         alt=""
-        src="/public/Perfil.jpeg"
+        src="Perfil.jpeg"
         className="absolute inset-0 -z-10 rounded-md size-full object-cover object-right md:object-center"
       />
 

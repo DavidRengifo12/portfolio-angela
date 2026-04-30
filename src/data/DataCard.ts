@@ -1,18 +1,18 @@
 export const informacionCards = [
   {
-    imageCard: "/public/carta2.jpeg",
+    imageCard: "carta2.jpeg",
     titleCard: "Optimización de requerimientos",
     buttonCard: "Conocer más",
     modal:"cards"
   },
   {
-    imageCard: "/public/histotyClinical.jpeg",
+    imageCard: "histotyClinical.jpeg",
     titleCard: "Automatización histórica clinica",
     buttonCard: "Conocer más",
     modal:"clinica"
   },
   {
-    imageCard: "/public/movil.jpeg",
+    imageCard: "movil.jpeg",
     titleCard: "Diseño de aplicaciónes móviles",
     buttonCard: "Conocer más",
     modal:"movil"

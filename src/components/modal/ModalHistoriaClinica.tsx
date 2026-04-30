@@ -159,7 +159,7 @@ export default function ModalHistoriaClinica({ onClose }: Props) {
                   </div>
                 </div>
 
-                <button onClick={() =>  {setVideoId("/public/VideoPortfolio.mp4"); setOpenVideoModal(true)}} className="flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg text-sm">
+                <button onClick={() =>  {setVideoId("VideoPortfolio.mp4"); setOpenVideoModal(true)}} className="flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg text-sm">
                   <IoPlayCircleOutline className="text-2xl"/>
                   <span className="text-sm">Ver reel del sistema</span>
                 </button>
@@ -173,7 +173,7 @@ export default function ModalHistoriaClinica({ onClose }: Props) {
       </div>
       {
         openVideoModal && videoId &&(
-          <ModalVideo onClose={() => {setVideoId("/public/VideoPortfolio.mp4"); setOpenVideoModal(false)}} videoId={videoId} />
+          <ModalVideo onClose={() => {setVideoId("/VideoPortfolio.mp4"); setOpenVideoModal(false)}} videoId={videoId} />
         )
       }
     </div>

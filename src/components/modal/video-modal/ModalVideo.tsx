@@ -21,7 +21,7 @@ export default function ModalVideo({ videoId, onClose }: Props) {
           controls
           autoPlay
         >
-          <source src='/public/VideoPortfolio.mp4' type="video/mp4" />
+          <source src='VideoPortfolio.mp4' type="video/mp4" />
           Tu navegador no soporta video.
         </video>
       </div>
