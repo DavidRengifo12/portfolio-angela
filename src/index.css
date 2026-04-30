@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Monserrat', sans-serif ;
+    background-color: lightslategray;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollReverse {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Estilos para las cards del Modal */
+/* GREEN */
+.card-green {
+  @apply border-green-400 bg-green-50 text-green-600;
+}
+.card-green-badge {
+  @apply bg-green-500 text-white;
+}
+
+/* BLUE */
+.card-blue {
+  @apply border-blue-400 bg-blue-50 text-blue-600;
+}
+.card-blue-badge {
+  @apply bg-blue-500 text-white;
+}
+
+/* ORANGE */
+.card-orange {
+  @apply border-orange-400 bg-orange-50 text-orange-600;
+}
+.card-orange-badge {
+  @apply bg-orange-500 text-white;
+}
+
+/* PURPLE */
+.card-purple {
+  @apply border-purple-400 bg-purple-50 text-purple-600;
+}
+.card-purple-badge {
+  @apply bg-purple-500 text-white;
+}
